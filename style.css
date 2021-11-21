@@ -1,0 +1,121 @@
+:root {
+    --main1: #FFAFBD;
+    --main2: #ffc3a0;
+}
+
+@font-face {
+    font-family: 'quby';
+    src: url('Cartwheel.ttf');
+    /* IE9 Compat Modes */
+    src: url('Cartwheel.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('Cartwheel.ttf') format('woff'), /* Modern Browsers */
+    url('Cartwheel.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('Cartwheel.ttf#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+.bg-main1 {
+    background-color: var(--main1) !important;
+}
+
+.bg-main2 {
+    background-color: var(--main2) !important;
+}
+
+.sweet-potato {
+    padding-left: 20px;
+    border-radius: 20px;
+    border: solid 1px #000;
+}
+
+.title-box {
+    border: dashed 5px #efb0c9;
+    margin: 10px 0px;
+}
+
+.title {
+    background: -webkit-linear-gradient(45deg, var(--main1), var(--main2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-family: 'quby';
+    line-height: 0px !important;
+    /* background-image: linear-gradient(to bottom right,#FFAFBD,#ffc3a0); */
+}
+
+body {
+    padding-bottom: 200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.menu-1 thead {
+    background: -webkit-linear-gradient(45deg, #FFAFBD, #ffc3a0);
+    color: #424242;
+}
+
+.menu-1 thead tr {
+    border-bottom: none;
+}
+
+.menu-1 tr {
+    border-bottom: 0.5px solid #ddd;
+}
+
+.menu-1 thead p {
+    font-weight: 400;
+}
+
+.menu-1 thead:hover {
+    font-weight: 700 !important;
+}
+
+.menu-1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.menu-1 th,
+td {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-1 td div {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-1 tr p {
+    margin: 5px 0px 5px 0px;
+}
+
+.menu-1 th:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.menu-1 th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.product-img-sunday {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #ff0066 !important;
+    border-radius: 0px !important;
+    box-shadow: #ff0066 !important;
+}
+
+.form-control:focus {
+    box-shadow: #ff0066 !important;
+}
+
+.rounded-20 {
+    border-radius: 20px !important;
+}
